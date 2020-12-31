@@ -1,0 +1,10 @@
+<nav>
+
+    <ul>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="foro.html">Foro</a></li>
+        <li><a href="archive.html">Archivos</a></li>
+        <li><a href="index.html">Inicio</a></li>
+
+    </ul>
+</nav>
