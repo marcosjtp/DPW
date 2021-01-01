@@ -1,5 +1,5 @@
 @charset "utf-8";
-article,
+ article,
 aside,
 footer,
 header,
@@ -8,7 +8,7 @@ nav,
 nav,
 section {
     display: block;
-}
+} 
 
 html,
 body,
@@ -25,7 +25,6 @@ footer,
 header,
 main,
 nav,
-nav,
 section {
     padding: 0;
     margin: 0;
@@ -36,10 +35,11 @@ section {
     color: white;
     padding: 10px 20px;
     text-align: center;
+    
 }
 
 body {
-    width: 450;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
     background-color: #f0f0f0;
@@ -51,6 +51,7 @@ nav {
     background-color: #20416c;
     padding: 5px;
     margin-top: 1px;
+    
 }
 
 li a {
@@ -71,16 +72,18 @@ section {
     margin-top: 10px;
     padding: 5px;
    
+   
 }
 
 article {
     background-color: white;
     margin-top: 5px;
     padding: 10px 15px;
-     width: 450;
+    
+    
 }
 main {
-    width: 450;
-    margin-top: 5px;
-    padding: 10px 15px;
+    width: 640px;
+    float: left;
+    margin-bottom: 10px;
 }
