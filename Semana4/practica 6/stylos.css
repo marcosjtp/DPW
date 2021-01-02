@@ -39,12 +39,13 @@ section {
 }
 
 body {
-    width: 960px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #f0f0f0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    background: url("https://images4.alphacoders.com/760/thumb-1920-76076.jpg");
 }
 
 nav {
@@ -71,6 +72,9 @@ section {
     background-color: #bbbbbb;
     margin-top: 10px;
     padding: 5px;
+    color: blue;
+    font-weight: bold;
+    font-style: oblique;
    
    
 }
@@ -79,24 +83,50 @@ article {
     background-color: white;
     margin-top: 5px;
     padding: 10px 15px;
+    color: black;  
     
-    
+}
+header{
+    color: cornflowerblue;
 }
 main {
-    width: 640px;
+    width: 70%;
     float: left;
     margin-bottom: 10px;
+    /*-----codigo para evitar que se pueda seleccionar el contenido*/
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    /*------------------------------------------------*/
 }
 aside{
-    background-color: #bbbbbb;
-    width: 270px;
+    background-color:#bbbbbb;
+    width: 26%;
     float: right;
     padding: 20px;
     margin-top: 10px;
+    margin-right: 2px;
 }
 footer{
+   
     clear: both;
     background-color: #20416c;
     color: white;
     padding: 5px 20px;
+    margin-bottom: 0px;
 }
+footer a:hover {
+    color:crimson;
+    font-size: larger;
+}
+footer {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   
+  }
