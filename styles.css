@@ -79,7 +79,7 @@ section {
 footer {
     font-family: 'Times New Roman', Times, serif;
     text-align: right;
-    background: black;
+    
     clear: both;
     margin-bottom: 0px;
 }
@@ -126,7 +126,23 @@ aside {
     text-shadow: 2px 2px #0059ff;
 }
 
-p {
+p li{
     color: black;
     font-size: 20px;
+}
+#footerabout p{
+    text-align: center;
+    font-size: 22px;
+    margin-left: 0 auto;
+    padding: 0;
+    color: #0059ff;
+    background-color: transparent;
+    
+}
+#footerabout p a {
+    text-decoration: none;
+}
+#footerabout p a:hover {
+    text-decoration: underline;
+    color: red;
 }
