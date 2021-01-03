@@ -90,7 +90,7 @@ header{
     color: cornflowerblue;
 }
 main {
-    width: 70%;
+    width: 65%;
     float: left;
     margin-bottom: 10px;
     /*-----codigo para evitar que se pueda seleccionar el contenido*/
@@ -109,6 +109,7 @@ aside{
     padding: 20px;
     margin-top: 10px;
     margin-right: 2px;
+    
 }
 footer{
    
