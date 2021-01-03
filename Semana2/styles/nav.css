@@ -39,6 +39,5 @@ p{
 }
 #infcabecera{
     text-align: center;
-    color: tomato;
-    background-color:darkgreen;
-}
+    color: red;
+    background-color:rgb(220, 247, 71);
