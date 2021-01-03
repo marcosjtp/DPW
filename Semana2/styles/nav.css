@@ -12,16 +12,26 @@ nav ul li{
 }
 nav ul li:hover{
     font-weight: bold;
+    color: brown;
+    text-shadow: 1px 1px red;
+    border-radius: 3px 3px;
     
-    background-color: chartreuse;
-
+    
 }
 nav{
     background-color: aqua;
     height: 30px;
+    border-radius: 5px 5px;
 }
 nav ul{
-    text-align: center;
+    text-align: center;    
+}
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration:underline
 }
 
 p{

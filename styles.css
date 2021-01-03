@@ -34,26 +34,33 @@ h6 {
 
 #navegation {
     color: crimson;
+   
 }
 
-li {
+nav ul li{
     margin-top: 0%;
     float: right;
     display: inline;
     margin-left: 5px;
     padding: 2px 2px;
     text-align: center;
-    font-size: 24px;
-    text-align: center;
-    box-shadow: 3px 3px thistle;
+    font-size: 18px;
+    text-align: center;    
     border-radius: 5px;
-}
+} 
 
-li:hover {
-    color: crimson;
-    font-size: 26px;
-    font-style: oblique;
-}
+
+nav ul li a {
+        text-decoration: none;
+        
+    }
+    
+nav ul li a:hover {
+        text-decoration:underline;        
+        text-shadow: 1px 1px crimson;
+        text-decoration-color: chartreuse;
+        font-weight: bold;
+    }
 
 body {
     background: url("https://images4.alphacoders.com/760/thumb-1920-76076.jpg");
