@@ -145,4 +145,5 @@ p li{
 #footerabout p a:hover {
     text-decoration: underline;
     color: red;
+    font-weight: bold;
 }
