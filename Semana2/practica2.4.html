@@ -2,14 +2,34 @@
     El elemento a , o elemento ancla , representa un hyperlink . Tiene una etiqueta de inicio y de final . El atributo href es utilizado para especificar la URL de la pagina web a la que estan enlazada . El texto que se situa entre las etiquetas de inicio y de fin sera mostrado en el navegador.
 -->
 <html lang="es">
-    <head>
+
+<head>
+    <style>
+        nav ul li {
+            display: inline;
+            margin-left: 5px;
+            padding: 10px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+        }
+        
+        nav ul li a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
     <title>Acceda al sitio de centenaria.com</title>
-    </head> 
-    <body>
-        <h2 style="background-color: bisque;">Elemento IMG agregado dentro de un elemento Ancla 
-            Un elemento img es adicionado entre el inicio y fin de las etiquetas a . Esto le permite al usuario ser llevado a una URL especificada cuando se la click sobre la imagen .</h2>
-        <h1 style="color: blue;">Elemento IMG agregado dentro de un elemento Ancla.</h1>
-        <p>Click en la imagen <a href="http://www.centenaria.com"> <img src="./img/basketball.png" alt="red ball" height="168" width="150"> </a> </p>
+</head>
+
+<body>
+    <h2 style="background-color: bisque;">Elemento IMG agregado dentro de un elemento Ancla Un elemento img es adicionado entre el inicio y fin de las etiquetas a . Esto le permite al usuario ser llevado a una URL especificada cuando se la click sobre la imagen .</h2>
+    <h1 style="color: blue;">Elemento IMG agregado dentro de un elemento Ancla.</h1>
+    <p>Click en la imagen
+        <a href="http://www.centenaria.com"> <img src="./img/basketball.png" alt="red ball" height="168" width="150"> </a>
+    </p>
 
     <br><br><br>
     <nav>
@@ -17,9 +37,9 @@
             <li><a href="../">INICIO</a></li>
             <li><a href="./practica2.5.html">SIGUIENTE</a></li>
             <li><a href="./practica2.3.html">ATRÁS</a></li>
-    
+
         </ul>
     </nav>
-    </body>
+</body>
+
 </html>
-    

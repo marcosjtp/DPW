@@ -1,123 +1,42 @@
-/* h1{
-    
-    font-style: oblique;
-    color: dodgerblue;
-    text-align: center;
-    font-size: 72px;
-	text-shadow: 2px 2px #ff0000;
-} */
-
-h2 {
-    font-family: 'Courier New', Courier, monospace;
-    color: crimson;
-    font-size: 36px;
-    border-bottom: coral;
-    font-style: oblique;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-iframe[seamless] {
-    border: none;
-}
-
-h3 {
-    font-family: 'Courier New', Courier, monospace;
-    color: chocolate;
-    border-bottom: coral;
-}
-
-h6 {
-    font-size: 28px;
-    font-style: oblique;
-    color: cornflowerblue;
-    text-align: center;
-}
-
-#navegation {
-    color: crimson;
-   
-}
-
-nav ul li{
+#tituloh1 {
     margin-top: 0%;
-    float: right;
-    display: inline;
-    margin-left: 5px;
-    padding: 2px 2px;
+    font-style: oblique;
+    color: whitesmoke;
     text-align: center;
-    font-size: 18px;
-    text-align: center;    
-    border-radius: 5px;
-} 
-
-
-nav ul li a {
-        text-decoration: none;
-        
-    }
-    
-nav ul li a:hover {
-        text-decoration:underline;        
-        text-shadow: 1px 1px crimson;
-        text-decoration-color: chartreuse;
-        font-weight: bold;
-    }
+    font-size: 36px;
+    text-shadow: 2px 2px crimson;
+}
 
 body {
-    background: url("https://images4.alphacoders.com/760/thumb-1920-76076.jpg");
-}
-
-main {
-    background: ();
-    max-width: 100%;
-    text-align: center;
-}
-
-section {
-    text-align: center;
+    background: url("./img/monumento.jpg");
+    object-position: center;
+    opacity: 100%;
 }
 
 footer {
     font-family: 'Times New Roman', Times, serif;
     text-align: right;
-    
     clear: both;
     margin-bottom: 0px;
-}
-
-.idautor {
-    color: rgb(243, 239, 21);
-    text-align: right;
-    font-size: 28px;
-    display: inline;
-}
-
-#pidautor {
-    color: teal;
-    text-align: right;
-    font-size: 28px;
-    display: inline;
-}
-
-#idtlautor {
-    color: yellow;
-    text-align: right;
-    font-size: 28px;
-}
-
-aside {
-    text-align: right;
 }
 
 #cabecera {
     background: -webkit-linear-gradient(left, teal 40%, #3ff 60%);
     text-align: center;
-    /* color: crimson; */
     box-shadow: 2px 2px 3px red;
     border-radius: 5px;
     font-size: 22px;
     color: rgba(30, 80, 250, 1);
     text-shadow: 2px 2px crimson;
     font-style: oblique;
+    margin-top: -5%;
+    margin-left: -5%;
+    float: left;
 }
 
 #cabecera:hover {
@@ -126,24 +45,157 @@ aside {
     text-shadow: 2px 2px #0059ff;
 }
 
-p li{
-    color: black;
-    font-size: 20px;
-}
-#footerabout p{
+#footerabout p {
     text-align: center;
     font-size: 22px;
     margin-left: 0 auto;
     padding: 0;
     color: #0059ff;
     background-color: transparent;
-    
 }
+
 #footerabout p a {
     text-decoration: none;
 }
+
 #footerabout p a:hover {
     text-decoration: underline;
     color: red;
     font-weight: bold;
+}
+
+
+/* Menu horizontal con buscador
+----------------------------------------------- */
+
+nav#neat-menu ul li {
+    height: 40px;
+}
+
+#contact-links {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    margin: auto;
+    position: relative;
+    width: 100%;
+    right: 0%;
+    left: 0%;
+}
+
+#contact-links a {
+    color: #4C9FEB;
+}
+
+#contact-links a:hover {
+    color: #f01746;
+}
+
+#menu-container {
+    background: #000000;
+    border-radius: 7px 7px 7px 7px;
+    position: relative;
+    left: 0%;
+    box-shadow: -1px 1px 0 rgba(255, 255, 255, 0.8) inset;
+    clear: both;
+    height: 46px;
+    float: center;
+}
+
+#neat-menu {
+    float: left;
+}
+
+#neat-menu a {
+    text-decoration: none;
+}
+
+#neat-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#neat-menu>ul>li {
+    float: left;
+}
+
+#neat-menu ul li a {
+    border-color: #00ffff;
+    border-image: none;
+    color: #33ff33;
+    display: block;
+    font-size: 14px;
+    height: 45px;
+    line-height: 25px;
+    padding: 10px 15px 10px;
+    text-shadow: 0 1px 0 #00aa00;
+}
+
+#neat-menu ul li a:hover {
+    background: #ffffff;
+}
+
+#neat-menu>ul>li.active>a {
+    color: #00A8DA;
+    margin: -1px 0 -1px -1px;
+}
+
+#neat-menu>ul>li.active>a:hover {
+    background: #ffffff;
+}
+
+#neat-menu>ul>li:first-child>a {
+    border-radius: 0 0 0 5px;
+}
+
+#neat-menu ul ul {
+    background: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    height: 0;
+    margin-top: 0px;
+    opacity: 0;
+    overflow: hidden;
+    width: 240px;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+#neat-menu ul li:hover ul {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
+
+#neat-menu ul ul a {
+    border-right-width: 0;
+    border-top: 1px solid #D1D1D1;
+    box-shadow: 0px 8px 32px -21px #000000 inset;
+    color: #444444;
+    height: 24px;
+    line-height: 24px;
+    padding: 7px 12px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#neat-menu ul ul a:hover {
+    background: #ffAA00;
+    box-shadow: 8px 0 0px #0bf02a inset, 1px 0 0 #FFFFFF inset;
+    color: #585353;
+    height: 24px;
+}
+
+#neat-menu ul ul li:first-child a {
+    border-top-width: 0;
+}
+
+section {
+    text-align: center;
 }
