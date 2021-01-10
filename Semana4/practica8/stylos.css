@@ -1,0 +1,19 @@
+head,header,body{
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
+p,img,input,section,h1{
+    text-align: center;
+}
+#resultado{
+    background-color: darkkhaki;
+    font-weight: bolder;
+    color: darkred;
+    text-align: center;
+    }
+#h1title{
+    color:dodgerblue;
+    font-weight: bold;
+    font-size: 48px;
+}
