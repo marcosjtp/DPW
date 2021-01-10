@@ -17,3 +17,17 @@ p,img,input,section,h1{
     font-weight: bold;
     font-size: 48px;
 }
+nav{
+    background-color: firebrick;
+    text-align: center;
+    height: 44;
+    
+}
+nav ul li{
+    display: inline;
+    
+   
+}
+nav ul li a{
+    text-decoration: none;
+}
