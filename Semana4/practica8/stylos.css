@@ -60,3 +60,16 @@ section {
     margin-right: auto;
     border-radius: 20px 15px 20px 15px;
 }
+#borrar:hover{
+    color: red;
+
+    
+}
+#imggoogle:hover{
+    transform: rotateY(45deg);
+}
+.button:hover{
+    color: blue;
+    font-weight: bold;
+    
+}
