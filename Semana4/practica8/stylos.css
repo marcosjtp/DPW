@@ -54,22 +54,24 @@ nav ul li a {
 }
 
 section {
-    background-color: rgb(243, 237, 184);
+    background: url("https://professor-falken.com/wp-content/uploads/2016/11/Como-comprobar-si-una-funcion-en-Javascript-existe-o-esta-definida-professor-falken.com_.jpg");
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px 15px 20px 15px;
 }
-#borrar:hover{
+.button:focus{
+    background-color:  greenyellow;    
     color: red;
-
-    
+}
+#resultado{
+    background-color:coral;
 }
 #imggoogle:hover{
     transform: rotateY(45deg);
 }
 .button:hover{
     color: blue;
-    font-weight: bold;
+    
     
 }
