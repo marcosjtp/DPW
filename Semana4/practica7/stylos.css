@@ -28,8 +28,8 @@ h1 {
     font-size: 15pt;
     color: #20bcd5;
     text-align: center;
-    padding: 18px 0 18px 0;
-    margin: 0010px0;
+    padding: 15px 0px 15px 0; 
+    margin: 0 0 10px 0;
 }
 
 h1 span {
@@ -108,4 +108,49 @@ textarea {
 
 body {
     background-color: #3fb6b2;
+}
+/*stylos del menu del calendario/ practica 7*/
+#navcalendario ul li a{
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+    
+}
+#navcalendario ul li a:hover{
+    color: crimson;
+    padding: 0;
+    margin: 0;
+    text-shadow:1px 1px yellow;
+    
+}
+#navcalendario ul {
+    color: crimson;
+    padding: 0;
+    margin: 0;
+    
+}
+#navcalendario{
+    
+    padding: 0;
+    margin-top: 0;
+    
+}
+#navcalendario ul li{
+    display: inline;
+    padding-left: 5px;
+    margin: 0;
+    
+
+  
+}
+/*fin stylos del menu del calendario/ practica 7*/
+.copyright p{
+    text-shadow: .5px .5px #f1481e;
+    text-align: right;
+}
+#imgpies a .img{
+    width: 50px;
+    height: 50px;
 }
