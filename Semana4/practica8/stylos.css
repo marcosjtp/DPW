@@ -65,7 +65,7 @@ section {
     color: red;
 }
 #resultado{
-    background-color:coral;
+    background-color:lightgreen;
 }
 #imggoogle:hover{
     transform: rotateY(45deg);
