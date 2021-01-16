@@ -1,0 +1,48 @@
+head,
+header,
+body,
+section,
+article,
+h1,
+p {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#resultadototal {
+    display: inline;
+}
+
+#result {
+    display: inline;
+    padding: 5px;
+}
+
+.res {
+    background-color: mediumseagreen;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#presul {
+    color: bisque;
+    display: inline;
+    padding: 18%;
+}
+
+#pcant {
+    color: aliceblue;
+    display: inline;
+    padding: 18%;
+}
+
+section {
+    background-color: mediumseagreen;
+    text-align: center;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
