@@ -4,50 +4,85 @@
     <script type="text/javascript" src="codigo.js"></script>
     <link rel="stylesheet" href="styles.css">
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="">INICIO</a>
-                </li>
-            </ul>
-        </nav>
-        <h1>Calculadora para Billetes Dominicanos</h1><br><br>
+        
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="../../">INICIO</a>
+                    </li>
+                    <li><a href="../practica8/">ATRAS</a></li>
+                </ul>
+            </nav>
+        <br><br>
+        <h1>Sumadora para Billetes Dominicanos</h1><br><br>
 
     </header>
 </head>
 
-<body>
+<body >
 
-    <section>
+    <section id="bod">
         <p id="pcant">Cantidad</p>
-        <p id="presul">Resultado</p><br>
-        <input type="number" id="b1" tabindex="1">0001
-        <input type="number" id="resulb1" readonly class="res"><br>
-        <input type="number" id="b5" tabindex="2">0005
-        <input type="number" id="resulb5" readonly class="res" disabled><br>
-        <input type="number" id="b10" tabindex="3">0010
-        <input type="number" id="resulb10" readonly class="res" disabled><br>
-        <input type="number" id="b20" tabindex="4">0020
-        <input type="number" id="resulb20" readonly class="res" disabled><br>
-        <input type="number" id="b25" tabindex="5">0025
-        <input type="number" id="resulb25" readonly class="res" disabled><br>
-        <input type="number" id="b50" tabindex="6">0050
-        <input type="number" id="resulb50" readonly class="res" disabled><br>
-        <input type="number" id="b100" tabindex="7">0100
-        <input type="number" id="resulb100" readonly class="res" disabled><br>
-        <input type="number" id="b200" tabindex="8">0200
-        <input type="number" id="resulb200" readonly class="res" disabled><br>
-        <input type="number" id="b500" tabindex="9">0500
-        <input type="number" id="resulb500" readonly class="res" disabled><br>
-        <input type="number" id="b1000" tabindex="10">1000
-        <input type="number" id="resulb1000" readonly class="res" disabled><br>
-        <input type="number" id="b2000" tabindex="11">2000
-        <input type="number" id="resulb2000" readonly class="res" disabled><br>
+        <p id="presul" >Resultado</p><br>
+        
+        <input type="number" id="b1" tabindex="1" class="num">0001
+        <input type="number" id="resulb1"  class="numero" disabled><br>
+        
+        <input type="number" id="b5" tabindex="2"class="num">0005
+
+        <input type="number" id="resulb5" class="numero" disabled><br>
+
+        <input type="number" id="b10" tabindex="3"class="num">0010
+
+        <input type="number" id="resulb10"  class="numero" disabled><br>
+
+        <input type="number" id="b20" tabindex="4" class="num">0020
+
+        <input type="number" id="resulb20"  class="numero" disabled><br>
+
+        <input type="number" id="b25" tabindex="5" class="num">0025
+
+        <input type="number" id="resulb25"  class="numero" disabled><br>
+
+        <input type="number" id="b50" tabindex="6" class="num">0050
+
+        <input type="number" id="resulb50"  class="numero" disabled><br>
+
+        <input type="number" id="b100" tabindex="7" class="num">0100
+
+        <input type="number" id="resulb100"  class="numero" disabled><br>
+
+        <input type="number" id="b200" tabindex="8" class="num">0200
+
+        <input type="number" id="resulb200"  class="numero" disabled><br>
+
+        <input type="number" id="b500" tabindex="9" class="num">0500
+
+        <input type="number" id="resulb500"  class="numero" disabled><br>
+
+        <input type="number" id="b1000" tabindex="10" class="num">1000
+
+        <input type="number" id="resulb1000"  class="numero" disabled><br>
+
+        <input type="number" id="b2000" tabindex="11" class="num">2000
+
+        <input type="number" id="resulb2000"  class="numero" disabled><br><br>
+
         <h1 id="resultadototal">Resultado Total</h1>
-        <input type="number" id="result" readonly class="res" disabled><br><br>
+        <input type="number" id="result" class="numero" disabled><br><br>
         <input type="button" class="but" value="Calcular" onclick="sumar()" tabindex="12">
-        <input type="button" class="but" value="borrar" onclick="borrar()">
+        <input type="button" class="but" value="borrar" onclick="borrar()"><br>
+        <input type="range" name="Zoom" id="zoom" max="1600" min="500" onchange="zooms()">
+        <input type="text" name="lzoom" id="lzoom">
     </section>
+    <!-- script para desactivar el click derecho del mouse -->
+    <script type='text/javascript'>
+        document.oncontextmenu = function() {
+            return false
+        }
+    </script>
+    <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+
 </body>
 
 </html>

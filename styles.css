@@ -10,6 +10,7 @@
     text-align: center;
     font-size: 36px;
     text-shadow: 2px 2px crimson;
+    text-transform: capitalize;
 }
 
 body {
@@ -139,7 +140,7 @@ nav#neat-menu ul li {
 }
 
 #neat-menu ul li a:hover {
-    background: #ffffff;
+    background:#e6ac2c;
     color: crimson;
     font-weight: bold;
 }
@@ -150,7 +151,7 @@ nav#neat-menu ul li {
 }
 
 #neat-menu>ul>li.active>a:hover {
-    background: #ffffff;
+    background: #e9e7e3;
 }
 
 #neat-menu>ul>li:first-child>a {
@@ -158,7 +159,7 @@ nav#neat-menu ul li {
 }
 
 #neat-menu ul ul {
-    background: #ffffff;
+    background: #e54c26;
     border-radius: 5px 5px 5px 5px;
     border: 10px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 0 #FFFFFF inset;
@@ -196,7 +197,7 @@ nav#neat-menu ul li {
 }
 
 #neat-menu ul ul a:hover {
-    background: white;
+    background: #0c73b9;
     color: crimson;
     height: 24px;
 }
@@ -221,4 +222,7 @@ section {
 
 #neat-menu ul li ul li a:hover {
     color: crimson;
+}
+a:visited{
+    color: mediumpurple;
 }
