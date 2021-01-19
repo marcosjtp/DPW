@@ -9,17 +9,19 @@ p {
     padding: 0px;
     text-align: center;
 }
-body{
-    background-image: url("../../img/hubble.jpg");
 
+body {
+    background-image: url("../../img/hubble.jpg");
 }
-h1{
-    color: yellow;
+
+h1 {
+    color: green;
 }
+
 #resultadototal {
     display: inline;
     padding: 30px;
-    color:deeppink;
+    color: deeppink;
 }
 
 #result {
@@ -27,64 +29,67 @@ h1{
     padding: 5px;
 }
 
-.numero{
+.numero {
     display: inline;
-    background-color: gainsboro;/* mediumseagreen;*/
+    background-color: gainsboro;
+    /* mediumseagreen;*/
     text-align: center;
     font-weight: bold;
     font-size: 16px;
     color: red;
     margin-right: auto;
-    
-    
 }
-.num{
+
+.num {
     display: inline;
     margin-left: 5px;
     text-align: center;
     padding-left: 2%;
     text-justify: auto;
-    
-
 }
 
 #presul {
-    color:deeppink;
+    color: deeppink;
     display: inline;
     padding-left: 8%;
     font-size: 22px;
 }
 
 #pcant {
-    color:deeppink;
+    color: deeppink;
     display: inline;
     padding: 8%;
     font-size: 22px;
 }
 
 section {
-    background-color: gainsboro;/*mediumseagreen;*/
+    background-color: gainsboro;
+    /*mediumseagreen;*/
     text-align: center;
     max-width: 1366px;
     width: 550px;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
 }
-.but{
+
+.but {
     margin-bottom: 5px;
     font-size: 16px;
     padding: 10px;
     margin: 10px;
 }
-.but:focus{
-    background-color:  greenyellow;    
+
+.but:focus {
+    background-color: greenyellow;
     color: red;
-    
 }
-.but:hover{
-    color: blue;  
+
+.but:hover {
+    color: blue;
 }
+
+
 /*stylos del menu del calendario/ practica 7*/
 
 nav ul li a {
@@ -93,12 +98,10 @@ nav ul li a {
     margin: 0;
     text-decoration: none;
     text-shadow: 1px 1px green;
-
 }
 
 nav ul li a:hover {
-    color:yellow;  
-
+    color: yellow;
     text-decoration: underline;
 }
 
@@ -121,16 +124,17 @@ nav {
     margin-right: auto;
     border-radius: 10px;
 }
+
 nav ul li {
     display: inline;
     padding-left: 5px;
     margin: 0;
 }
 
-
-a:visited{
-    color: mediumpurple;
+a:visited {
+    color: lawngreen;
 }
+
 nav ul li a {
     text-align: center;
 }
