@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Curso Diseño Pagina Web</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <?php
+    include("./nav.html")
+    ?>
+    <main>
+
+        <section>
+
+
+            <article>
+
+
+
+
+
+            </article>
+
+            <header>
+
+            </header>
+
+
+        </section>
+
+        <article>
+
+        </article>
+
+        <header>
+
+        </header>
+
+        <section>
+
+            <article>
+
+            </article>
+
+            <header>
+
+            </header>
+
+
+        </section>
+
+        <article>
+
+        </article>
+
+
+        <header>
+
+        </header>
+
+
+    </main>
+
+    <aside>
+
+
+    </aside>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

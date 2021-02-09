@@ -12,46 +12,64 @@
     text-shadow: 2px 2px crimson;
     text-transform: capitalize;
 }
-.titulo{
+
+#sectionform {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00aa00;
+    max-width: 450px;
+}
+
+.titulo {
     margin-top: 0%;
     font-style: oblique;
     color: white;
     text-align: center;
     font-size: 36px;
     text-shadow: 2px 2px crimson;
-    text-transform: capitalize;  
+    text-transform: capitalize;
 }
-.subtitulos{
+
+.subtitulos {
     margin-top: 0%;
     font-style: oblique;
     color: white;
     text-align: center;
     font-size: 36px;
     text-shadow: 2px 2px crimson;
-    text-transform: capitalize; 
+    text-transform: capitalize;
 }
-#calc{
-    background-image: url("http://alkinkasap.github.io/images/javascript.jpg");
+
+#calc {
+    /* background-image: url("http://alkinkasap.github.io/images/javascript.jpg"); */
+    background-color: grey;
     max-width: 45%;
     margin-left: auto;
     margin-right: auto;
 }
-.container{
-    object-position: center;
-    opacity: 100%;
-    max-width: 99.8%;
-    margin-left: auto;
-    margin-right: auto; 
-}
-#body {
-    background-image: url("");
 
-
+.container {
     object-position: center;
     opacity: 100%;
     max-width: 99.8%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#body {
+    background-color: gainsboro;
+    object-position: center;
+    opacity: 100%;
+    max-width: 99.8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgrey;
 }
 
 footer {
@@ -59,7 +77,9 @@ footer {
     text-align: right;
     clear: both;
     margin-bottom: 0px;
-    color:#09f1cb;
+    color: green;
+    box-shadow: 1px 2px 1px#0059ff;
+    padding-bottom: 0%;
 }
 
 #cabecera {
@@ -173,7 +193,7 @@ nav#neat-menu ul li {
 }
 
 #neat-menu ul li a:hover {
-    background:#e6ac2c;
+    background: #e6ac2c;
     color: crimson;
     font-weight: bold;
 }
@@ -256,6 +276,7 @@ section {
 #neat-menu ul li ul li a:hover {
     color: crimson;
 }
-a:visited{
+
+a:visited {
     color: mediumpurple;
 }

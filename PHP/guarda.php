@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 <?php
 	
 	//Como el elemento es un arreglos utilizamos foreach para extraer todos los valores
@@ -14,18 +15,30 @@
 			if(!file_exists($directorio)){
 				mkdir($directorio, 0777) or die("No se puede crear el directorio de extracci&oacute;n");	
 			}
-			
+
+
+			$info = new SplFileInfo($filename);
+			var_dump($info->getExtension());			
+			echo "la extension del archivo es $info <br>";
+
+
+
+
+
+			$filename="1".$filename;
 			$dir=opendir($directorio); //Abrimos el directorio de destino
 			$target_path = $directorio.'/'.$filename; //Indicamos la ruta de destino, así como el nombre del archivo
 			
 			//Movemos y validamos que el archivo se haya cargado correctamente
 			//El primer campo es el origen y el segundo el destino
+			include("cargar.php");
 			if(move_uploaded_file($source, $target_path)) {	
 				echo "El archivo $filename se ha almacenado en forma exitosa.<br>";
 				} else {	
 				echo "Ha ocurrido un error, por favor inténtelo de nuevo.<br>";
 			}
 			closedir($dir); //Cerramos el directorio de destino
+			
 		}
 	}
 ?>
